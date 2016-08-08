@@ -29,3 +29,85 @@ body {
 .socialMedia img {
   border-bottom: 2px rgba(127, 140, 141, 0.5);
 }
+
+.navMenubar {
+  font-size: 0;
+}
+
+.border__bottom {
+  border-bottom: 2px rgba(127, 140, 141, 0.5);
+}
+
+.navMenubar__link {
+  background-color: rgb(180, 41, 46);
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  height: 30px;
+  width: 246px;
+  margin-right: 10px;
+  margin-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+.carousel {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.carousel ol {
+  border-bottom: 2px rgba(127, 140, 141, 0.5);
+  list-style: none;
+  padding: 0;
+  height: 330px;
+  width: 1024px;
+  margin-bottom: 20px;
+}
+
+.carousel li {
+  box-sizing: border-box;
+  border: solid 10px rgb(255, 255, 255);
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+  height: 330px;
+  width: 100%;
+}
+
+.carousel img {
+  box-sizing: border-box;
+  margin: 0;
+  height: auto;
+}
+
+.carousel__bottom {
+  position: absolute;
+  left: 0px;
+  top: -100px;
+  width: 124%;
+  z-index: 2;
+}
+
+.carousel__grid {
+  left: 0px;
+  right: 0px;
+  height: 200%;
+  position: absolute;
+  opacity: 0.35;
+  z-index: 30;
+}
+
+.carousel__logo {
+  left: 0px;
+  top: 40px;
+  width: 40%;
+  position: absolute;
+  z-index: 40;
+}
