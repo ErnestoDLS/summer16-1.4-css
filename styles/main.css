@@ -136,6 +136,10 @@ body {
   margin-right: 12px;
 }
 
+.grid__row {
+  font-size: 0px;
+}
+
 .info {
   display: inline-block;
   box-sizing: border-box;
