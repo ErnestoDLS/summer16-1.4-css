@@ -4,3 +4,28 @@ html {
   background-size: cover;
   font-family: sans-serif;
 }
+
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.topOfpage {
+  position: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socialMedia {
+  display: block;
+  margin: 10px;
+  text-align: right;
+}
+
+.socialMedia img {
+  border-bottom: 2px rgba(127, 140, 141, 0.5);
+}
